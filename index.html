@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!-- < < < Linking Style > > > -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- < < < Navbar Started > > > -->
+    <nav>
+        <ul class="_sidebar">
+            <li onclick="hideMenu()"><a href="#"><img src="./assets/icons/close.png" alt="closeIcon" /></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Coding</a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="hideOnMobile"><a href="#">Services</a></li>
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+            <li class="hideOnMobile"><a href="#">
+                    <button class="bottom">Apply Now
+                        <span class="bg"></span>
+                    </button>
+                </a></li>
+            <li onclick="showMenu()"><a href="#"><img src="./assets/icons/menu.png" width="40px" height="40px"
+                        alt="menuIcon" /></a></li>
+        </ul>
+    </nav>
+    <!-- < < < Navbar End > > > -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
